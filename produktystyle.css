@@ -1,0 +1,68 @@
+.all
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+    padding-top: 5px;
+}
+
+.product {
+    flex-basis: 33.33333%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 10px #ef98da inset;
+    max-width: 350px;
+    margin: 0 4% 5% 4%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 30px 15px 30px;
+    border: rgba(239, 152, 218, 0.7) 5px solid;
+    border-radius: 2rem;
+    transition: transform 0.3s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+    background-image: url('gwiazdki.gif');
+    background-size: cover;
+}
+
+.product h1 {
+    font-size: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: initial;
+}
+
+.opis
+{
+    text-align: center;
+    font-size: 15px;
+}
+
+.price
+{
+    text-align: center;
+    color: rgba(220, 103, 193, 0.84);
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.sklad
+{
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.sklad::first-line
+{
+    font-style: normal;
+    font-size: 16px;
+    font-weight: bold;
+}

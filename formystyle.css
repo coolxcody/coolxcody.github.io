@@ -1,0 +1,94 @@
+
+.tyt
+{
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: -12px;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.formularz
+{
+    text-align: center;
+    width: 43%;
+    margin-bottom: 30px;
+    margin-left: 400px;
+}
+
+.formularz p
+{
+    font-weight: bold;
+    font-size: 300%;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: -4px;
+}
+
+.formularz form
+{
+    border: 1px solid #000000;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 10px #ef98da inset;
+}
+
+.formularz input[type=text]
+{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.formularz input[type=message]
+{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.formularz button
+{
+    background-color: #ef98da;
+    font-size: 100%;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    color: black;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom:20px;
+    opacity: 0.8;
+}
+
+.formularz button:hover
+{
+    opacity: 1;
+}
+
+.fomularz a
+{
+    color: #993300;
+}
+
+.formularz .label
+{
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}

@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body
+{
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    overflow-x:hidden;
+    padding: 0;
+    background: linear-gradient(90deg, #d97dbf 0%, #d599c0 50%, #d97dbf 100%);
+}
+
+#menu
+{
+    font-family: 'Cinzel', serif;
+    margin-top: 200px;
+    text-align: center;
+}
+
+#header {
+    z-index: 1;
+    background-color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 125px;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    letter-spacing: -13px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+#header > p
+{
+    background-image: linear-gradient(45deg, #ff4fd4, #c9199c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #ee009f 0px 0px 10px;
+}
+
+.open
+{
+    font-size: 60%;
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+}
+
+.open:hover
+{
+    color: #e7039b;
+    text-shadow: #ee009f 0px 0px 10px;
+    font-weight: bolder;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: radial-gradient(#d599c0 0%, #d97dbf 100%);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    display: block;
+    transition: 0.3s;
+    letter-spacing: -5px;
+}
+
+.overlay a:hover
+{
+    color: #ee009f;
+    text-shadow: #ee009f 0px 0px 10px;
+}
+
+.overlay .closebtn {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+footer
+{
+    border-top: 2px white solid;
+    color: white;
+    display: block;
+    position: relative;
+    clear: left;
+    text-align: center;
+    line-height: 70px;
+}
+
+.foot
+{
+    display: flex;
+    align-items: center;
+}
+
+.foot1
+{
+    margin: 30px 50px 50px 50px;
+    width: 33.3%;
+    line-height: 20px;
+    text-align: justify;
+}
+
+.foot1:first-line
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    line-height: 150%;
+}
+
+.foot2
+{
+    margin-top: 0px;
+    width: 33.3%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.image-foot
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img
+{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 10em;
+}
+
+.foot3
+{
+    margin: 30px 50px 50px 50px;
+    width: 33.3%;
+    line-height: 30px;
+}
+
+.open-button
+{
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border: none;
+    padding: 10px;
+    border-radius: 5rem;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    opacity: 0.8;
+    width: fit-content;
+
+}
+
+
+.form-popup {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    z-index: 9;
+    width: 28%;
+}
+
+
+.form-container {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 10px #ef98da inset;
+    border: rgba(239, 152, 218, 0.7) 5px solid;
+}
+
+.form-container > h1
+{
+    font-size: 300%;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: -4px;
+}
+
+.form-container > input[type=text], .form-container > input[type=e-mail] {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.form-container > .btn {
+    background-color: #ef98da;
+    font-size: 100%;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    color: black;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom:20px;
+    opacity: 0.8;
+}
+
+.form-container > .cancel
+{
+    background-color: #10060d;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-bottom: 30px;
+}
+
+.form-container > .btn:hover, .open-button:hover {
+    opacity: 1;
+}

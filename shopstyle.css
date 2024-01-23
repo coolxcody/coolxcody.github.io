@@ -1,0 +1,95 @@
+h2
+{
+	text-align: center;
+	font-size: 4rem;
+    color: black;
+	margin-bottom: 20px;
+	padding-top: 15px;
+	letter-spacing: -5px;
+}
+
+h3
+{
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 10px;
+	letter-spacing: -5px;
+}
+
+.slides
+{
+
+}
+
+.t1, .t2
+{
+	text-align: center;
+	font-size: 2rem;
+
+}
+
+.t1:first-line
+{
+	font-weight: bolder;
+	margin-bottom: 10px;
+	letter-spacing: 5px;
+}
+
+
+.mainDiv
+{
+	min-width: 500px;
+	width: 50%;
+	min-height: 500px;
+	background-color: rgb(255, 245, 248, 0.8);
+	padding: 3rem;
+	border-radius: 3rem;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 10px #ef98da inset;
+	border: rgba(239, 152, 218, 0.7) 5px solid;
+	background-image: url('gwiazdki.gif');
+	background-size: cover;
+}
+
+
+.pojemnik
+{
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	align-items: center;
+}
+
+.bt
+{
+	text-align: center;
+	font-size: 2rem;
+	margin: 0 40px 0 40px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50em;
+	border: none;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: rgba(239, 152, 218, 0.7);
+	cursor: pointer;
+
+}
+
+.sprawdz
+{
+	text-decoration: none;
+	font-weight: bolder;
+	color: black;
+	background: linear-gradient(90deg, rgba(217, 125, 191, 0.7) 0%, rgba(213, 153, 192, 0.7) 50%, rgba(217, 125, 191, 0.7) 100%);
+	border-radius: 2rem;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 10px #ef98da inset;
+	font-size: 125%;
+	padding: 15px 30px;
+	transition: background 3s;
+}
+
+.sprawdz:hover
+{
+	background: linear-gradient(90deg, #d97dbf 0%, #d599c0 50%, #d97dbf 100%);
+}

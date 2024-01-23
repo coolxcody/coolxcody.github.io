@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="h&fstyle.css">
+    <link rel="stylesheet" href="formystyle.css" />
+    <title>MIKSTURKI</title>
+</head>
+<body>
+
+<div id="header">
+    <span class="open" onclick="openNav()">&#9776;</span>
+    <p>Miksturki</p>
+</div>
+
+<div id="menu">
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="sklep.html">Start</a>
+            <a href="produkty.html">Produkty</a>
+            <a href="koszyk.html">Koszyk</a>
+            <a href="formularz.html">Formularz zwrotu</a>
+            <a href="kontakt.html">Kontakt</a>
+        </div>
+    </div>
+</div>
+
+<h2 class="tyt">FORMULARZ<br>ZWROTU</h2>
+    <div class="formularz">
+        <form onsubmit="Form2(event)">
+
+            <p>Zarejestruj zwrot</p>
+
+                 <label class="label">Numer Zamówienia</label>
+                 <input type="text" placeholder="np.4567842" name="uname" required>
+
+                <label class="label">E-mail/Numer Telefonu</label>
+                 <input type="message" placeholder="Podaj swój e-mail lub numer telefonu " name="message" required>
+
+                 <label class="label">Podaj powód zwrotu</label>
+                 <input type="checkbox" id="powod1" name="powod1">
+                 <label for="powod1">Eliksir nie działa</label><br>
+
+                 <input type="checkbox" id="powod2" name="powod2">
+                 <label for="powod2">Produkt przyjechał uszkodzony</label><br>
+
+                 <input type="checkbox" id="powod3" name="powod3">
+                 <label for="powod3">Otrzymałam/em inny produkt niż zamówiony</label><br>
+
+                 <input type="checkbox" id="powod4" name="powod4">
+                 <label for="powod1">Produkt stracił datę ważności przed otrzymaniem zamówienia</label><br>
+
+                 <input type="checkbox" id="powod5" name="powod5">
+                 <label for="powod1">Inny powód</label>
+                 <input type="message" placeholder="Jaki?" name="powod6">
+
+                 <button type="submit2">Wyślij</button>
+
+        </form>
+    </div>
+
+
+<footer>
+    <div class = "foot">
+
+        <div class="foot1">
+            <p>
+                MIKSTURKI<br>
+                Mistrzowska mieszanka tradycji i innowacji! Od 20 lat dostarczamy naszym klientom najlepsze mikstury, które przynoszą ulgę i&nbsp;poprawiają samopoczucie. Nasze magiczne mikstury stworzone są z&nbsp;najwyższej jakości składników, a&nbsp;przepisy przekazywane są z&nbsp;pokolenia na pokolenie.
+                Zaufało nam już wielu klientów, którzy doświadczyli mocy naszych produktów w&nbsp;poprawie zdrowia, energii i&nbsp;harmonii życiowej. Odkryj tajemnicę długowieczności i&nbsp;dołącz do grona naszych zadowolonych klientów!            </p>
+        </div>
+
+        <div class="foot2">
+            <p>Sprawdź nasze social media!</p>
+
+            <div class="image-foot">
+                <a href="https://www.instagram.com/minecraftblow0/"><img src="blowek.png" class="img" /></a>
+
+                <a href="https://www.instagram.com/coolxcody/"><img src="cody.jpg" class="img" /></a>
+            </div>
+        </div>
+
+        <div class="foot3">
+            <button class="open-button" onclick="openForm()">Zapisz się do newslettera</button>
+
+            Zgarnij 15% zniżki na pierwsze zakupy!<br>Dlaczego warto?
+            <ul>
+                <li>Nie ominą Cię żadne promocje.</li>
+                <li>Będziesz na bieżąco z nowymi produktami.</li>
+                <li>Zyskasz dostęp do specjalnych promocji tylko dla subskrybentów.</li>
+            </ul>
+
+            <div class="form-popup" id="myForm">
+                <form class="form-container" onsubmit="submitForm(event)">
+                    <h1>Newsletter</h1>
+
+                    <input type="text" placeholder="Podaj e-mail" name="e-mail" required>
+                    <button type="submit" class="btn">Wyślij!</button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Zamknij</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <p>Copyright © 2024 Miksturki. Wszelkie prawa zastrzeżone.</p>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

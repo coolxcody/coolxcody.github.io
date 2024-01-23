@@ -1,0 +1,118 @@
+.kolumnyPojemnik
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 80px;
+
+}
+
+.tyt
+{
+    line-height: 100px;
+    text-align: center;
+    letter-spacing: -12px;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+
+.adres
+{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.adr
+{
+    font-size: 200%;
+    letter-spacing: -7px;
+}
+
+.kolumna1
+{
+    text-align: center;
+}
+
+.kolumna2
+{
+    text-align: center;
+    width: 43%;
+}
+
+.kolumna2 p
+{
+    font-weight: bold;
+    font-size: 300%;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    letter-spacing: -4px;
+}
+
+.kolumna2 form
+{
+    border: 1px solid #000000;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8), 0px 0px 20px rgba(0, 0, 0, 0.5), 0px 0px 10px #ef98da inset;
+}
+
+.kolumna2 input[type=text]
+{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.kolumna2 input[type=message]
+{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    height: 100px;
+    border: none;
+    position: relative;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.kolumna2 button
+{
+    background-color: #ef98da;
+    font-size: 100%;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8), 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    color: black;
+    padding: 12px 10px;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    margin-bottom:20px;
+    opacity: 0.8;
+}
+
+.kolumna2 button:hover
+{
+    opacity: 1;
+}
+
+.kolumna2 a
+{
+    color: #993300;
+}
+
+.kolumna2 .label
+{
+    font-weight: bold;
+    font-size: 150%;
+    text-align: center;
+}
